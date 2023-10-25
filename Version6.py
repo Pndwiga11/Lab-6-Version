@@ -16,9 +16,6 @@ def decode(password):
         decoded += str(digit)
     return decoded
 
-print(encode('9999'))
-print(decode(encode('0709')))
-
 def main():
 
     encoded = None
