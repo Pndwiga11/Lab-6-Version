@@ -1,3 +1,13 @@
+def decode(encoded):
+    decoded = ''
+    for i in range (0, len(encoded)):
+        digit = int(encoded[i]) - 3
+        if digit < 0:
+            digit = digit + 10
+        decoded += str(digit)
+    return decoded
+
+
 def encode(password):
     encoded = ''
     for i in range(0,len(password)):
