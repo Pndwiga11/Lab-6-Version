@@ -7,14 +7,7 @@ def encode(password):
         encoded += str(digit)
     return encoded
 
-def decode(password):
-    decoded = ''
-    for i in range(0, len(password)):
-        digit = int(password[i]) - 3
-        if digit < 0:
-            digit = digit + 10
-        decoded += str(digit)
-    return decoded
+
 
 def main():
 
