@@ -33,7 +33,7 @@ def main():
             password = input('Please enter your password to encode: ')
             encoded = encode(password)
         elif menu_selection == 2:
-            decoded = decoded(encoded)
+            decoded = decode(encoded)
             print('The enncoded password is ' + encoded + ' and the original passoword is ' + decoded + '.')
         elif menu_selection == 3:
             break
